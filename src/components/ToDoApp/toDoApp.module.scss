@@ -1,0 +1,23 @@
+.toDoApp_container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 10rem;
+  justify-content: center;
+  .toDoApp_component {
+    height: auto;
+    width: 80rem;
+    background-color: #f2e7dc;
+    border-radius: 50px;
+    border: 0.5rem solid #038c7f;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    .header {
+      height: auto;
+      padding: 1.5rem;
+      font-size: 6rem;
+      font-weight: 700;
+      text-align: center;
+      color: #027373;
+    }
+  }
+}
